@@ -1,0 +1,15 @@
+.Header{
+    grid-area: h;
+    background-color: aqua;
+    
+    }
+  
+    .Logo {
+      width: 130px;
+      border-radius: 50%;
+      margin-left: 10px;
+      }
+
+  
+
+ 
