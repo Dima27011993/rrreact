@@ -4,5 +4,13 @@
     font-size: 20px;
     background-color: darkgrey;
     color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     }
+    .Navbar a{
+        text-decoration: none;
+    }
+
+
   

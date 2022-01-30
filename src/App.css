@@ -5,3 +5,10 @@
     grid-template-areas: 'h h'
     'n c';
 }
+
+.app-wrapper-content{
+        grid-area: c;
+        font-size: 20px;
+        color:wheat;
+        background-color: cadetblue;
+        }
