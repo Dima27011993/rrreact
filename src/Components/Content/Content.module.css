@@ -1,11 +1,5 @@
    
-      .Content{
-        grid-area: c;
-        font-size: 20px;
-        color:wheat;
-        background-color: black;
-        
-        }
+   
         .Content .Image{
           width: 100%;
         }
@@ -13,3 +7,4 @@
         .Post{
           background-color: black;
         }
+   
