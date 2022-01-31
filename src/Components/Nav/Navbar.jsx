@@ -6,11 +6,11 @@ const Navbar = (props) => {
   return (
     <div className={m.NavbarWrapper}>
       <nav className={m.Navbar}>
-        <NavLink to="Profile">Profile</NavLink>
-        <a href="Messages">Messages</a>
-        <a href="News">News</a>
-        <a href="Music">Music</a>
-        <a href="Settings">Settings</a>
+        <NavLink to="/profile" activeClassName={m.Navbar}>Profile</NavLink>
+        <NavLink to="/messages">Messages</NavLink>
+        <NavLink to="/news">News</NavLink>
+        <NavLink to="/music">Music</NavLink>
+        <NavLink to="/settings">Settings</NavLink>
       </nav>
     </div>
   );

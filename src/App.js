@@ -3,8 +3,11 @@ import "./App.css";
 import Profile from "./Components/Content/Content";
 import Header from "./Components/Header/Header";
 import Navbar from "./Components/Nav/Navbar";
-import dialogs from "./Components/dialogs/dialogs";
-import { BrowserRouter, Routes } from "react-router-dom";
+import Dialogs from "./Components/dialogs/dialogs";
+import News from "./Components/news/news";
+import Music from "./Components/music/music";
+import Settings from "./Components/setings/settings";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 const App = (props) => {
   return (
     <BrowserRouter>
@@ -12,8 +15,14 @@ const App = (props) => {
         <Header />
         <Navbar />
         <div className="app-wrapper-content">
-          <Routes path="Messages" component={dialogs} />
-          <Routes path="Profile" component={Profile} />
+          <Routes>
+          <Route path="/messages" element={<Dialogs/>}/>
+          <Route path="/profile" element={<Profile/>}/>
+          <Route path='/news' element={<News/>}/>
+          <Route path='/music' element={<Music/>}/>
+          <Route path='/settings' element={<Settings/>}/>
+
+          </Routes>
         </div>
       </div>
     </BrowserRouter>

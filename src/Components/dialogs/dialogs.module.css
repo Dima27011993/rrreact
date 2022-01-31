@@ -1,3 +1,11 @@
 .dialogs{
-    color: red;
+    color: gold;
+    background-color: gray;
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+
+}
+.messages{
+}
+.dialogsWrapper{
 }
