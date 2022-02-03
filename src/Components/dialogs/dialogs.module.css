@@ -3,9 +3,7 @@
     background-color: gray;
     display: grid;
     grid-template-columns: 2fr 10fr;
-
 }
-.messages{
-}
-.dialogsWrapper{
+.dialog a{
+    text-decoration: none;
 }
